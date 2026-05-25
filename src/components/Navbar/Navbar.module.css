@@ -22,40 +22,16 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
   flex-shrink: 0;
 }
 
 .logo:hover { text-decoration: none; }
 
-.logoMark {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: var(--orange);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 900;
-  font-size: 0.85rem;
-  letter-spacing: -0.5px;
-  flex-shrink: 0;
-}
-
-.logoText {
-  font-size: 1.05rem;
-  font-weight: 800;
-  color: var(--text-primary);
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-}
-
-.logoSub {
-  font-size: 0.62rem;
-  color: var(--text-muted);
-  font-weight: 500;
+.logoImg {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
 .links {
